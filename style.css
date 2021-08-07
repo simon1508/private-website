@@ -1,0 +1,477 @@
+body{
+
+    /*Schriftart festlegen*/
+    font-family: 'Times New Roman' sans-serif;
+
+    /*Höhe der Textzeile*/
+    line-height: 1.5;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    /*Schriftgröße*/
+    font-size: 50px;
+    text-decoration: none;
+    color: #fdfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+h2 {
+    /*Strichstärke*/
+    font-weight: normal;
+
+    text-decoration: none;
+    color: #fdfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3{
+
+    /* Schriftstil festlegen (italic = Kursiv)
+    font-style: italic;*/
+
+    text-decoration: none;
+    color: #fdfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h4{
+
+    text-decoration: none;
+    color: #fdfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    line-height: 45px;
+}
+
+a{
+
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Start of the Navigation */
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+
+    
+    
+    float: right;
+    margin: 0;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #fdfcfc;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+nav a:hover{
+
+    color: #b20000;
+    
+}
+
+nav a:active{
+
+    font-weight: bold;
+
+}
+
+
+    nav{
+
+        float: rig;
+        margin-top: 0;
+
+    }
+    
+
+    li{
+
+        display: inline;
+        padding: 15px;
+        /*background-color: #5f5f5f;*/
+        
+    }
+
+
+
+.container {
+
+    width: 920px;
+    margin: 50px auto;
+    padding: 0 42px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+
+
+/* End of the Navigation */
+
+.kopfbereich {
+
+    background-color: rgb(12, 12, 12);
+    /*background: url(images/banner.jpg) no-repeat;*/
+    
+    background-size: 100%;
+    
+}
+
+.navigation{
+
+    /*background-color: #5f5f5f;*/
+    height: 50px;
+}
+
+.navbar img{
+
+    width: 150px;
+    padding: 15px;
+}
+
+
+
+.socialmedia {
+
+    height: 20%;
+    width: 05%;
+    position: relative;
+}
+
+
+.logo{
+
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    text-align: right;
+    display: flex;
+
+}
+
+.hometext{
+
+    text-align: left;
+
+}
+
+.maintance {
+
+    text-align: center;
+
+}
+
+
+.animated-text {
+
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    height: 15em;  /* auf 1.5em ändern*/
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 4s steps(48) forwards;
+}
+
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 60ch; /* auf 48ch ändern */
+    }
+}
+
+
+
+
+
+/* Fortschrittsbalken Photoshop */
+
+#progressBar {
+
+    
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 1.5rem;
+    background-color: rgb(12, 12, 12);
+
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+/* Fortschrittsbalken Illustrator */
+
+#progressBar_Illustrator {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    
+}
+
+
+/* Fortschrittsbalken Premiere Pro */
+
+#progressBar_PremierePro {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+
+/* Fortschrittsbalken After Effects */
+
+#progressBar_AfterEffects {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+   
+}
+
+
+/* Fortschrittsbalken Blender */
+
+#progressBar_Blender {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+/* Fortschrittsbalken WebDesign */
+
+#progressBar_WebDesign {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+    
+}
+
+
+
+/* Fortschrittsbalken Programming */
+
+#progressBar_Programming {
+
+    width: 30rem; /* Ändern um Balken länger zu machen*/
+    height: 3rem;
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin-top: 6rem;
+    background-color: rgb(12, 12, 12);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+
+#progressBarFull {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 100%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+    
+}
+
+
+#progressBarFull_Illustrator {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 40%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+
+
+#progressBarFull_PremierePro {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 55%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+
+
+#progressBarFull_AfterEffects {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 25%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+
+
+#progressBarFull_Blender {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 30%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+
+
+#progressBarFull_WebDesign {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 30%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+
+
+#progressBarFull_Programming {
+
+    height: 3rem;
+    background-color: #b20000;
+    width: 50%;                                /* Ändern auf die Prozent wie lange der Balken sein soll */
+    border-radius: 20px solid #b20000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    
+
+    
+}
+
+.progessBarLabel{
+
+    
+    text-align: left;
+    
+    width: 80%;
+    margin: 2 auto;
+    
+
+    
+}
+
+
+
+.progessBarLabel_Illustrator{
+
+    
+    text-align: left;
+    
+    width: 80%;
+    margin: 2 auto;
+    
+}
+
+
